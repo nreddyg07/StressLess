@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .background {
+            background-image: url('https://i.pinimg.com/originals/1c/60/06/1c600644804994e6effa882bf23b6638.jpg'); /* Replace 'your-image-url.jpg' with the path to your image */
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            color: black;
+            text-align: center;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 10px 0;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+        }
+        .content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.5em;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="about.html">About</a>
+        <a href="http://127.0.0.1:5000">Test Yourself</a>
+        <a href="http://127.0.0.1:5500/templates/contact.html" class="active">Contact</a>
+        </div>
+
+        <div class="content">
+            <h1>Welcome to StressLess</h1>
+                <p>Its a realtime stress detection application used to detect whether a person is stressed or not.</p>
+               <h2> What is stress?</h2>
+               <p> Have you ever found yourself in a situation where your to-do list seems endless, deadlines are fast approaching and you find yourself saying ‘Eek! I feel stressed!’? But what is stress really, and how does it affect us? Firstly, let’s debunk one myth: stress is not necessarily a ‘bad’ thing. Without this brilliant ability to feel stress, humankind wouldn’t have survived.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
